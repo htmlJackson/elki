@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Елки Хом</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/colorbox.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- Две нижние строчки убрать на production после компиляции style.css из less
+	и добавить строчку <link rel="stylesheet" href="css/style.css">-->
+	<link rel="stylesheet/less" type="text/css" href="css/style.less">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.0.0/less.min.js"></script>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="header__logo col-xs-3">
+					<a href="#header">
+						<img src="images/logo.png" alt="">
+					</a>
+				</div>
+
+				<div class="header__contacts col-xs-9">
+					<span class="header__adress">ул. Пушкина 17, д. 5</span>
+					<span class="header__phone">8(812)123-45-67</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!-- ПЕРВЫЙ ЭКРАН -->
+	<section class="promo" id="promo">
+		<div class="container">
+			<div class="row">
+
+					<h1 class="promo__title">При покупке елки от 4 метров получи в подарок на выбор:</h1>
+
+          <div class="col-xs-4">
+            <div class="promo__block">
+              <img src="images/wreath.png" alt="" class="promo__icon">
+              Венки на дверь
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="promo__block">
+              <img src="images/ball.png" alt="" class="promo__icon">
+              Комплект игрушек
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="promo__block">
+              <img src="images/tree.png" alt="" class="promo__icon">
+              Ель русская красавица
+            </div>
+          </div>
+
+          <button class="button promo__button">Заказать</button>
+			</div>
+		</div>
+	</section>
+
+
+  <!-- НАШИ ТОВАРЫ -->
+  	<section class="goods" id="goods">
+  		<div class="container">
+  			<div class="row">
+  				<h2 class="goods__title">Товары</h2>
+
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-4">
+            <div class="goods__item">
+              <img src="images/foto1.png" alt="" class="goods__image">
+              <p class="goods__description">
+                Ель Клеопатра 4 метра с комплектом украшений №2
+              </p>
+              <div class="goods__priceblock">
+                <span class="goods__price">12 000 руб.</span>
+                <button class="button goods__button">Заказать</button>
+              </div>
+            </div>
+          </div>
+
+  			</div>
+  		</div>
+  	</section>
+
+
+    <!-- О КОМПАНИИ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+
+          <h2 class="about__title">О компании</h2>
+          <p class="about__description">
+            Компания, предлагающая товар, полностью соответствует требованиям покупателей даже с взыскательным вкусом. Обращайтесь к нам, и убедитесь лично, что лучше наших елок не бывает!
+          </p>
+          <div class="col-xs-3">
+            <div class="about__block">
+              <span class="about__counter">11</span>
+              <span class="about__text">лет опыта</span>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="about__block">
+              <span class="about__counter">2000</span>
+              <span class="about__text">довольных клиентов</span>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="about__block">
+              <span class="about__counter">50</span>
+              <span class="about__text">наименований елок</span>
+            </div>
+          </div>
+
+          <div class="col-xs-3">
+            <div class="about__block">
+              <span class="about__counter">100</span>
+              <span class="about__text">пунктов продажи</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Почему мы? -->
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <div class="row">
+          <h2 class="advantages__title">Почему мы?</h2>
+            <div class="col-xs-3">
+              <div class="advantages__block">
+                <img src="images/icon-1.png" alt="" class="advantages__image">
+                <span class="advantages__slogan">Высокое качество</span>
+                <p class="advantages__text">
+                  Вы получаете исправный прибор, отремонтированный с использованием.
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="advantages__block">
+                <img src="images/icon-2.png" alt="" class="advantages__image">
+                <span class="advantages__slogan">Высокое качество</span>
+                <p class="advantages__text">
+                  Вы получаете исправный прибор, отремонтированный с использованием.
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="advantages__block">
+                <img src="images/icon-3.png" alt="" class="advantages__image">
+                <span class="advantages__slogan">Высокое качество</span>
+                <p class="advantages__text">
+                  Вы получаете исправный прибор, отремонтированный с использованием.
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class="advantages__block">
+                <img src="images/icon-4.png" alt="" class="advantages__image">
+                <span class="advantages__slogan">Высокое качество</span>
+                <p class="advantages__text">
+                  Вы получаете исправный прибор, отремонтированный с использованием.
+                </p>
+              </div>
+            </div>
+         </div>
+       </div>
+     </section>
+
+    <section class="application" id="application">
+   		<div class="container">
+   			<div class="row">
+          <div class="col-xs-12">
+     				<h2 class="application__title">Заполните форму</h2>
+     				<p class="application__description">
+     					Чтобы получить консультацию специалиста бесплатно
+     				</p>
+
+     				<form class="application__form" action="php/post.php" method="post">
+     					<input name="name" type="text" class="name-input" placeholder="Имя*">
+     					<input name="surname"type="text" class="surname-input" placeholder="Фамилия*">
+     					<input name="phone" type="text" class="phone-input" placeholder="Телефон*">
+     			  	<input type="hidden" name="location" value="Консультация специалиста">
+     			  	<button class="application__button button" type="submit">Записаться</button>
+     				</form>
+     			</div>
+   	  	</div>
+      </div>
+    </section>
+
+
+
+	<!-- СЕРТИФИКАТЫ -->
+		<section class="certificates" id="certificates">
+			<div class="container">
+				<div class="row">
+					<h2 class="akc__title">Сертификаты</h2>
+          <div class="col-xs-3">
+            <div class="certificates__item">
+              <a href="images/pic-2.png">
+                <img src="images/pic-1.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="certificates__item">
+              <a href="images/pic-2.png">
+                <img src="images/pic-1.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="certificates__item">
+              <a href="images/pic-2.png">
+                <img src="images/pic-1.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="certificates__item">
+              <a href="images/pic-2.png">
+                <img src="images/pic-1.png" alt="">
+              </a>
+            </div>
+          </div>
+				</div>
+			</div>
+		</section>
+
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="row">
+					<h2 class="reviews__title">Отзывы</h2>
+          <div class="col-xs-12">
+            <div class="reviews__slider">
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+              <div class="reviews__item">
+                <p class="reviews__text">
+                  Сотрудничаем уже 2 года, и во многом успешное состояние нынешнего бизнеса сложилось благодаря вам! Хотелось бы поблагодарить менеджеров компании за ответственную работы, создание доброжелательной атмосферы и оперативную помощь в решении любых вопросов.
+                </p>
+                <span class="reviews__author">
+                  Евгений Смирнов
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<!-- СХЕМА РАБОТЫ -->
+		<section class="scheme" id="scheme">
+			<div class="container">
+				<div class="row">
+					<h2 class="scheme__title">Схема работы</h2>
+          <div class="col-xs-3">
+            <div class="scheme__item">
+              <img src="images/icon-5.png" alt="" class="scheme__icon">
+              <p class="scheme__text">
+                Вы оставляете заявку на понравившуюся Вам елку
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="scheme__item">
+              <img src="images/icon-6.png" alt="" class="scheme__icon">
+              <p class="scheme__text">
+                Наш менеджер связывается с вами в течение 30 минут
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="scheme__item">
+              <img src="images/icon-7.png" alt="" class="scheme__icon">
+              <p class="scheme__text">
+                Осуществляется доставка до Вашего дома или Вы можете забрать елку сами
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="scheme__item">
+              <img src="images/icon-8.png" alt="" class="scheme__icon">
+              <p class="scheme__text">
+                Производится оплата при получении елки
+              </p>
+            </div>
+          </div>
+
+				</div>
+			</div>
+		</section>
+
+
+	<!-- КОНТАКТЫ -->
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="row">
+				<h2>Контакты</h2>
+				<div class="col-xs-12">
+					<div class="contacts__map">
+
+					</div>
+					<div class="contacts__block">
+						<p class="contacts__phone">
+              +7 (495) 123-45-67
+						</p>
+						<p class="contacts__email">
+							<a href="mailto:sales@robot.ru">sales@robot.ru</a>
+						</p>
+						<p class="contacts__adress">
+							Москва, ул. Конная, 40
+						</p>
+					</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<!-- ФУТЕР -->
+
+	<footer>
+		<div class="footer__sign">
+				Сделано в <a href="http://t-stark.ru" target="_blank" rel="nofollow">T-Stark
+			</a>
+		</div>
+	</footer>
+
+	<!--Начало формы для отправки заявки -->
+	<div class="modal fade" id="modal-callback" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+		    <div class="modal-header">
+					<h3>Оставьте заявку</h3>
+					<p>и наш оператор свяжется с Вами</p>
+			    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+		    </div>
+		    <div class="modal-body">
+					<form action="php/post.php" method="post">
+						<input name="name" class="modal-input name-input" type="text" placeholder="Имя*">
+						<input name="phone" class="modal-input phone-input" type="text" placeholder="Телефон*">
+						<input name="surname" type="text" class="promo__input surname-input" placeholder="Фамилия*">
+						<input type="hidden" name="location" value="Модальное окно">
+						<button type="submit" class="button modal-submit">
+						Отправить
+						</button>
+					</form>
+			  </div>
+		  </div>
+		</div>
+	</div>
+	<!--Конец формы для отправки заявки -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

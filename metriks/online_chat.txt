@@ -1,0 +1,5 @@
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+
+</script>
+<!-- {/literal} END JIVOSITE CODE -->
